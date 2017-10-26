@@ -1,4 +1,5 @@
 # Portfolio
+[![Build Status](https://travis-ci.org/craigharvi3/portfolio.svg?branch=master)](https://travis-ci.org/craigharvi3/portfolio)
 
 
 ## Get Started
