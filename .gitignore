@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+public/css
+public/js
+public/img

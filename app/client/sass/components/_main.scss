@@ -1,0 +1,50 @@
+.main {
+  background: $white;
+  padding: 50px 1em;
+  text-align: center;
+
+  h1 {
+    font-family: $fontFamily-heading;
+    color: $black;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  > p {
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    color: $green;
+  }
+  
+  .main--inner {
+
+    li {
+      text-align: center;
+    }
+
+    .icon {
+      color: $green;
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-family: $fontFamily-heading;
+      color: $black;
+      font-size: 1.8em;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.8;
+      color: $grey;
+      max-width: 400px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+}

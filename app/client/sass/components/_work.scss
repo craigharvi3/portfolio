@@ -1,0 +1,39 @@
+.work {
+  background: none;
+  padding: 50px 1em;
+  text-align: center;
+
+  .work-image {
+  	margin: 0 auto;
+  	width: 100px;
+  	height: 100px;
+  	@include border-radius(50%);
+  	overflow: hidden;
+  	margin-bottom: 20px;
+
+  	a {
+  		display: block;
+  	}
+
+  	&.mmaexperience {
+  		background: #26292e;
+
+  		img {
+				width: 50px;
+				margin-top: 40px;
+  		}
+  	}
+
+  	&.clinchcombat {
+  		background: #272a2b;
+  	}
+
+  	&.audiospace {
+  		background: $white;
+
+  		img {
+  			margin-top: 25px;
+  		}
+  	}
+  }
+}

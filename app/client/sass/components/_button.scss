@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  height: auto;
+  width: 15em;
+  line-height: 3.0rem;
+  border-radius: 5em;
+  color: $black;
+  border: 2px solid $black;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $green;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
+  transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
+
+  &:hover {
+    background-color: black;
+    color: $green;
+  }
+}
