@@ -1,4 +1,4 @@
-.fullscreen-hero {
+.hero {
   height: 100vh;
   position: relative;
   text-align: center;
@@ -22,13 +22,22 @@
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(49,61,65,0.6)), to(rgba(49,61,65,0.6)));
     background-image: linear-gradient(90deg, rgba(49,61,65,0.6), rgba(49,61,65,0.6));
   }
-}
 
-.fullscreen-hero:before, .fullscreen-hero:after {
+  h1 {
+    margin-top: 20px;
+    font-family: $fontFamily-heading;
+    color: $white;
+    font-weight: 700;
+    font-size: 1.6em;
+  }
+
+  &:before,
+  &:after {
     content: '';
     position: absolute;
     bottom: 0;
     width: 100%;
+  }
 }
 
 .hero-container {
@@ -48,12 +57,4 @@
   img {
     width: 50px;
   }
-}
-
-.fullscreen-hero h1 {
-  margin-top: 20px;
-  font-family: $fontFamily-heading;
-  color: $white;
-  font-weight: 700;
-  font-size: 1.6em;
 }

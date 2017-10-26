@@ -5,6 +5,7 @@ const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const eslint = require('gulp-eslint');
 const cssnano = require('gulp-cssnano');
+const connect = require('gulp-connect');
 
 // clean
 
@@ -92,3 +93,13 @@ gulp.task('watch', function() {
 // bundle
 
 gulp.task('bundle', ['lint', 'copy', 'minify:css', 'js:production']);
+
+
+// connect
+
+gulp.task('connect', function() {
+  connect.server({
+    root: 'public',
+    livereload: true
+  });
+});

@@ -8,7 +8,7 @@ import Work from './work';
 const App = ({}) => {
 	return (
 		<div>
-			<div className="fullscreen-hero">
+			<div className="hero">
 				<div className="hero-container">
 					<div className="hero-content">
 						<img src="/img/logo.png" alt="Craig Harvie" />
