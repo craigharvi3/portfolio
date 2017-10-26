@@ -11,7 +11,7 @@ const SubFooter = ({}) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default SubFooter;

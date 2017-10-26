@@ -9,10 +9,8 @@ import Layout from './layouts/app';
 import App from './components/app';
 import NotFound from './components/404';
 
-import reducers from './reducers';
-
 const middleware = applyMiddleware(thunk);
-const store = createStore(reducers, middleware);
+const store = createStore(() => {}, middleware);
 
 ReactDOM.render((
   <Provider store={store}>

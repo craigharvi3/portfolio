@@ -36,6 +36,5 @@ yarn test
 ## Directory Structure
 * `app` - This is where the main application lives (client and server codebase)
     * `client` - The front end code including sass, javascript and images.
-    * `server` - The back end code including routes, controllers, models and data stubs.
 * `test` - This is where all unit tests live (just front end tests for now).
 * `public` - Contains the static index.html and where build files including css, javascript and images are compiled to.
