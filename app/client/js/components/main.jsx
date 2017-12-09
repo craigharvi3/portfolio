@@ -9,7 +9,7 @@ const Main = ({}) => {
       <div className="wrap">
         <div className="main--inner">
           <ul className="grid">
-            <li className="grid-item">
+            <li className="grid-item grid-item--third">
               <i className="icon fa fa-lightbulb-o" aria-hidden="true"></i>
               <h2>Ideas</h2>
               <p>
@@ -20,7 +20,7 @@ const Main = ({}) => {
                 and expanding my knowledge.
               </p>
             </li>
-            <li className="grid-item">
+            <li className="grid-item grid-item--third">
               <i className="icon fa fa-magic" aria-hidden="true"></i>
               <h2>UI</h2>
               <p>
@@ -31,7 +31,7 @@ const Main = ({}) => {
                 to think... the better.
               </p>
             </li>
-            <li className="grid-item">
+            <li className="grid-item grid-item--third">
               <i className="icon fa fa-code" aria-hidden="true"></i>
               <h2>Code</h2>
               <p>

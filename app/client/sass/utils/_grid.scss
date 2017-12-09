@@ -13,8 +13,10 @@
 	@include flex-shrink(0);
 	padding: 1em 1em 0 1em;
 
-	@media(min-width: $mq-large) {
-		padding: 1em;
-		@include flex-basis(33.33%);
+	&--third {
+		@media(min-width: $mq-large) {
+			padding: 1em;
+			@include flex-basis(33.33%);
+		}
 	}
 }

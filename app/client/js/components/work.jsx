@@ -22,6 +22,7 @@ const Work = ({}) => {
               	Built with Express, MongoDB, React and Redux.
               </p>
             </li>
+            {/*
             <li className="grid-item">
             	<div className="work-image audiospace">
               	<a href="https://audiospace.club" target="_blank">
@@ -50,6 +51,7 @@ const Work = ({}) => {
               	Built with Silex, ES6 and Sass.
               </p>
             </li>
+          */}
           </ul>
         </div>
       </div>
