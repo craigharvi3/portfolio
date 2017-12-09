@@ -10,16 +10,16 @@ const Work = ({}) => {
         <div className="main--inner">
           <ul className="grid">
             <li className="grid-item">
-            	<div className="work-image clinchcombat">
-              	<a href="https://clinchcombat.com" target="_blank">
-              		<img src="/img/clinchcombat.jpg" alt="" />
+            	<div className="work-image fightfeed">
+              	<a href="https://fightfeed.co.uk" target="_blank">
+              		<img src="/img/fightfeed.png" alt="" />
               	</a>
               </div>
-              <h2>ClinchCombat</h2>
+              <h2>FightFeed</h2>
               <p>
-              	The MMA discussion forum for you and your friends.
+              	The personalised MMA news feed.
               	<br />
-              	Built with Express, React and Redux.
+              	Built with Express, MongoDB, React and Redux.
               </p>
             </li>
             <li className="grid-item">
