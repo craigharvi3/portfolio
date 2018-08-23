@@ -10,8 +10,8 @@ describe('<Work />', () => {
     expect(wrapper.find('.work')).to.have.length(1);
   });
 
-  it('should render a 1 element grid', () => {
+  it('should render a 3 element grid', () => {
     const wrapper = shallow(<Work />);
-    expect(wrapper.find('.grid-item')).to.have.length(1);
+    expect(wrapper.find('.grid-item')).to.have.length(3);
   });
 });
