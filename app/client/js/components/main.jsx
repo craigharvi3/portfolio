@@ -25,9 +25,9 @@ const Main = ({}) => {
               <h2>UI</h2>
               <p>
                 I try to make things look beautiful.
-                Whenever I work on a project, I ensure 
-                the are fully accessible and easy for 
-                users to work out. The less they have
+                Whenever I work on a website, I ensure 
+                they are fully accessible and easy for 
+                my users to navigate. The less they have
                 to think... the better.
               </p>
             </li>
@@ -37,7 +37,7 @@ const Main = ({}) => {
               <p>
                 I love building things from scratch.
                 I have a deep knowledge of Node.JS, 
-                Javascript, SASS (CSS) and HTML5.
+                React.JS,  Javascript, SASS (CSS) and HTML5.
                 I've also coded in ColdFusion, PHP, 
                 MySQL and more.
               </p>

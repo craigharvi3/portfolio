@@ -9,7 +9,7 @@ const Work = ({}) => {
       <div className="wrap">
         <div className="main--inner">
           <ul className="grid">
-            <li className="grid-item">
+            <li className="grid-item grid-item--third">
             	<div className="work-image fightfeed">
               	<a href="https://fightfeed.co.uk" target="_blank">
               		<img src="/img/fightfeed.png" alt="" />
@@ -22,36 +22,33 @@ const Work = ({}) => {
               	Built with Express, MongoDB, React and Redux.
               </p>
             </li>
-            {/*
-            <li className="grid-item">
-            	<div className="work-image audiospace">
-              	<a href="https://audiospace.club" target="_blank">
-              		<img src="/img/audiospace.jpg" alt="" />
+            <li className="grid-item grid-item--third">
+            	<div className="work-image">
+              	<a href="https://ufcbrowser.com" target="_blank">
+              		<img src="/img/ufcbrowser.png" alt="" />
               	</a>
               </div>
-              <h2>AudioSpace</h2>
+              <h2>UFC Browser</h2>
               <p>
-              	The platform for music producers to share 
-              	and collaborate on music projects and 
-              	prototypes.
+              	The ultimate UFC platform. Explore events, 
+                fighters, weight classes and techniques.
               	<br />
-              	Built with Silex, ES6 and Sass.
+              	Built with Node.JS, React and MongoDB.
               </p>
             </li>
-            <li className="grid-item">
-            	<div className="work-image mmaexperience">
-              	<a href="https://mmaexperience.co.uk" target="_blank">
-              		<img src="/img/mmaexperience.png" alt="" />
+            <li className="grid-item grid-item--third">
+            	<div className="work-image">
+              	<a href="https://bbc.co.uk/radio" target="_blank">
+              		<img src="/img/iplayer.jpg" alt="" />
               	</a>
               </div>
-              <h2>MMA Experience</h2>
+              <h2>iPlayer Radio</h2>
               <p>
-              	A personalised news hub for all things MMA.
-              	<br />
-              	Built with Silex, ES6 and Sass.
+              	Listen to live BBC Radio or catch up on programmes on demand.
+                <br />
+                Current Senior Software Engineer
               </p>
             </li>
-          */}
           </ul>
         </div>
       </div>
